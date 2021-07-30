@@ -27,6 +27,7 @@ import {
   DropdownItem,
   DropdownToggle,
   UncontrolledDropdown,
+ 
   NavbarBrand,
   Navbar,
   NavItem,
@@ -108,7 +109,7 @@ class DemoNavbar extends React.Component {
                   </Row>
                 </div>
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
-                
+               
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
@@ -190,8 +191,7 @@ class DemoNavbar extends React.Component {
                       Star us on Github
                     </UncontrolledTooltip>
                   </NavItem>
-                    </Button>
-                  </NavItem> */}
+             
                 </Nav>
               </UncontrolledCollapse>
             </Container>
